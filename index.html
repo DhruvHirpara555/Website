@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body style="background: #23d5ab; font-size: 16px; font: Roboto; color: rgb(7, 97, 89);">
+    <h1>Personal Website</h1>
+    <div class="about">
+        <h2>About Me</h2>
+        <p> I am Dhruv Hirpara, currently living in Ahmedabad and studying in International Institute of Information
+            Technology, Hyderabad.
+        </p>
+        <div class="hobby">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Coding</li>
+                <li>Watching Movies</li>
+                <li>Playing Games</li>
+            </ul>
+        </div>
+        <div class="Contact">
+            <h2>Contact</h2>
+            <table class="contact-table">
+                <tr>
+                    <th rowspan="2" class="contact-cell">Email</th>
+                    <td class="contact-cell">Personal</td>
+                    <td class="contact-cell"><a
+                            href="dhruv.hirpara@students.iiit.ac.in">dhruv.hirpara@students.iiit.ac.in</a></td>
+                </tr>
+                <tr>
+                    <td class="contact-cell">Work</td>
+                    <td class="contact-cell"><a
+                            href="dhruv.hirpara@students.iiit.ac.in">dhruv.hirpara@students.iiit.ac.in</a></td>
+                </tr>
+                <tr>
+                    <th rowspan="2" class="contact-cell">Mobile</td>
+                    <td class="contact-cell">Personal</td>
+                    <td class="contact-cell"><a href="#">+91-8160372128</a></td>
+
+                </tr>
+                <tr>
+                    <td class="contact-cell">Work</td>
+                    <td class="contact-cell"><a href="#">+91-9978034434</a></td>
+            </table>
+        </div>
+    </div>
+    <div class="profile-pic">
+        <h2>Profile Picture</h2>
+        <img src="media/Profile.jpg" id="profile" alt="Profile Picture" width="200" height="200" onclick="changeImg()">
+
+    </div>
+    <div class="Eub">
+        <h2>Educational Background</h2>
+
+        <table class="edu-table">
+            <tr>
+                <th class="edu-cell" rowspan="2">
+                    Institute/School
+                </th>
+                <th class="edu-cell" rowspan="2">
+                    Degree
+                </th>
+                <th class="edu-cell" colspan="2">
+                    Date
+                </th>
+            </tr>
+            <tr>
+                <th class="edu-cell">
+                    start
+                </th>
+                <th class="edu-cell">
+                    end
+                </th>
+            </tr>
+            <tr>
+                <td class="edu-cell">
+                    International Institute of Information Technology, Hyderabad
+                </td>
+                <td class="edu-cell">
+                    B.Tech
+                </td>
+                <td class="edu-cell">
+                    September 2020
+                </td>
+                <td class="edu-cell">
+                    May 2024
+                </td>
+            </tr>
+            <tr>
+                <td class="edu-cell">
+                    Ahmedabad Public School
+                </td>
+                <td class="edu-cell">
+                    SSC
+                </td>
+                <td class="edu-cell">
+                    May 2017
+                </td>
+                <td class="edu-cell">
+                    May 2019
+                </td>
+            </tr>
+
+        </table>
+    </div>
+    <div class="achivements">
+        <h2>Achievements</h2>
+        <table class="Ach-table">
+            <tr>
+                <th>Title</th>
+                <th>Date</th>
+            </tr>
+            <tr>
+                <td>
+                    Winner of the National Level Procastination contest
+                </td>
+                <td>
+                    May 2020
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Born on Earth
+                </td>
+                <td>
+                    June 2002
+                </td>
+
+        </table>
+    </div>
+    <div class="skill">
+        <h2> Skill </h2>
+        <table class="skill-table">
+            <tr>
+                <th>Skill</th>
+                <th>Proficiency</th>
+            </tr>
+            <tr>
+                <td>
+                    C/C++
+                </td>
+                <td>
+                    Proficient
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Python
+                </td>
+                <td>
+                    Intermediate
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    HTML
+                </td>
+                <td>
+                    Intermediate
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    CSS
+                </td>
+                <td>
+                    Intermediate
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    JavaScript
+                </td>
+                <td>
+                    Intermediate
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    SQL
+                </td>
+                <td>
+                    Intermediate
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Docker
+                </td>
+                <td>
+                    Beginner
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Git
+                </td>
+                <td>
+                    Proficient
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="news"></div>
+    <h2>News and Update</h2>
+
+    <div class="news-container">
+        <table class="news-table">
+            <tr>
+                <th>Title</th>
+                <th>Date</th>
+                <th>Content</th>
+                <th>author</th>
+            </tr>
+            <tr>
+                <td>
+                    News 1
+                </td>
+                <td>
+                    May 2020
+                </td>
+                <td>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Donec euismod, nisl eget consectetur sagittis, nisl
+                    libero aliquet nunc, euismod aliquam nunc nisl eget
+                    consectetur sagittis.
+                </td>
+                <td>
+                    Dhruv Hirpara
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <form id="update" onsubmit="return false" autocomplete="off" onemptied="return false">
+
+            <h2>Add News/Update</h2>
+            <div class="form-group">
+                <div>
+                    <label for="title">Title</label>
+                    <input type="text" id="title" name="title" required>
+                </div>
+                <div>
+                    <label for="content">Content</label>
+                    <input type="text" id="content" name="content" required>
+                </div>
+                <div>
+                    <label for="author">Author</label>
+                    <input type="text" id="author" name="author" required>
+                </div>
+            </div>
+            <span id="error" style="width: 100px; color: red; padding: 5px; display: none;"> Input required</span>
+            <button id="sub-btn" type="button" onclick="addNews()">Submit</button>
+        </form>
+    </div>
+    </div>
+    <div class="ikjs">
+        <h2>I Know JavaScript</h2>
+        <button class="change" onclick="changeBackground()"> Change Back</button>
+        <button class="change" onclick="changeFontSize()"> changeFontSize</button>
+    </div>
+    <div class="link">
+        <h2>Links</h2>
+        <div class="icons">
+            <a href="https://github.com/DhruvHirpara555" target="_blank">
+                <img src="media/github.png" alt="Github" width="50" height="50">
+            </a>
+            <a href="https://www.facebook.com/dhruv.hirpara.35" target="_blank">
+                <img src="media/facebook.png" alt="Facebook" width="50" height="50">
+            </a>
+            <a href="./hello.html" target="_blank">
+                <img src="media/local.png" alt="Hello" width="50" height="50">
+            </a>
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="media/youtube.png" alt="Youtube" width="50" height="50">
+            </a>
+
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/news.js"></script>
+    <script src="./js/change.js"></script>
+    <script>window.onload = loadnews</script>
+
+</body>
+
+</html>
